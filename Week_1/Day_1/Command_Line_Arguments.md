@@ -18,3 +18,9 @@ for (let j = 0; j < process.argv.length; j++) {
 ```
 
 All this script does is `loop through the process.argv array and prints the indexes, along with the elements stored in those indexes.` It's very useful for debugging if you ever question what arguments you're receiving, and in what order.
+
+``` javascript
+const args = process.argv.slice(2);
+```
+
+This line of code removes the first two elements from the array leaving you with only the arguments passed by the user.

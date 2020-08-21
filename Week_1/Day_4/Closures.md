@@ -54,6 +54,7 @@ const wrapLog = (callback, name) => {
     callback();
     let paramaters = [];
 
+    //You cannot use arguments with arrow declaration function
     for (const paramater of arguments) {
       paramaters.push(paramater);
     }

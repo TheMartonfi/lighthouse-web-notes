@@ -13,3 +13,4 @@ This repository contains all of the notes taken by [Carl Comtois](https://github
   * [Day 5](/Week_1/Day_5)
   * [Day we](/Week_1/Day_we)
 * [Week 2](/Week_2)
+    * [Day 2](/Week_2/Day_2)
